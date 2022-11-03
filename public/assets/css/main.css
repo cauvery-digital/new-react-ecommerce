@@ -1590,7 +1590,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #f9f9ff; }
   .exclusive-deal-area .exclusive-left {
     position: realtive;
-    background:  url('../imgexclusive.jpg') center no-repeat;
+    background:  url('../img/exclusive.jpg') center no-repeat;
     background-size: cover;
     text-align: center;
     padding: 275px 0; }
@@ -1903,12 +1903,12 @@ h1, h2, h3, h4, h5, h6 {
       background-size: cover;
       margin-left: 10px; }
       .quick-view-carousel-details .owl-controls .owl-dots .owl-dot:nth-child(1) {
-        background:  url('../imgob1.jpg');
+        background:  url('../img/ob1.jpg');
         margin-left: 0; }
       .quick-view-carousel-details .owl-controls .owl-dots .owl-dot:nth-child(2) {
-        background:  url('../imgob2.jpg'); }
+        background:  url('../img/ob2.jpg'); }
       .quick-view-carousel-details .owl-controls .owl-dots .owl-dot:nth-child(3) {
-        background:  url('../imgob3.jpg'); }
+        background:  url('../img/ob3.jpg'); }
       .quick-view-carousel-details .owl-controls .owl-dots .owl-dot.active {
         box-shadow: 2.828px 2.828px 15px 0px rgba(0, 0, 0, 0.1);
         position: relative; }
@@ -2560,7 +2560,7 @@ label {
       content: "";
       height: 1px;
       width: 500px;
-      background:  url('../imglogo/title-line.png') repeat;
+      background:  url('../img/logo/title-line.png') repeat;
       top: 50%;
       right: 120%;
       transform: translateY(-50%); }
@@ -2569,7 +2569,7 @@ label {
       content: "";
       height: 1px;
       width: 500px;
-      background:  url('../imglogo/title-line.png') repeat;
+      background:  url('../img/logo/title-line.png') repeat;
       top: 50%;
       left: 120%;
       transform: translateY(-50%); }
@@ -2588,7 +2588,7 @@ label {
       content: "";
       height: 1px;
       width: 200px;
-      background:  url('../imglogo/title-line.png') repeat;
+      background:  url('../img/logo/title-line.png') repeat;
       top: 50%;
       right: 107%;
       transform: translateY(-50%); }
@@ -2597,7 +2597,7 @@ label {
       content: "";
       height: 1px;
       width: 2000px;
-      background:  url('../imglogo/title-line.png') repeat;
+      background:  url('../img/logo/title-line.png') repeat;
       top: 50%;
       left: 107%;
       transform: translateY(-50%); }
@@ -2658,7 +2658,7 @@ label {
   border-radius: 50%;
   transform: rotate(-25deg);
   position: absolute;
-  background:  url('../imglogo/discount-shape.svg) no-repeat center center/cover;
+  background:  url('../img/logo/discount-shape.svg) no-repeat center center/cover;
   z-index: 5; }
   .banner-discount .offer {
     margin-top: 7px;
