@@ -2,7 +2,7 @@ import React from "react";
 
 function Banner() {
   return (
-	<>
+	<div>
 	<section class="banner-area">
 		<div class="container">
 			<div class="row fullscreen align-items-center justify-content-start">
@@ -49,7 +49,7 @@ function Banner() {
 			</div>
 		</div>
 	</section>
-	</>
+	</div>
   );
 }
 export default Banner;
