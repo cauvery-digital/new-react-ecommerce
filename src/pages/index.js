@@ -17,12 +17,12 @@ const Home = () => {
   return (
     <>
 	<Banner/>
-	<Future/>
-	<Gallery/>
-	<Products/>
-	<Hotdeals/>
-	<Brands/>
-	<Dealofweek/>
+	<div><Future/></div>
+	<div><Gallery/></div>
+	<div><Products/></div>
+	<div><Hotdeals/></div>
+	<div><Brands/></div>
+	<div><Dealofweek/></div>
   </>
   )
 }
