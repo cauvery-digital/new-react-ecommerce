@@ -83,7 +83,7 @@ git remote add origin https://github.com/cauvery-digital/new-react-ecommerce.git
 git branch -M master
 git push -u origin master
 
-### GitHub Pages Deploy
+# GitHub Pages Deploy
 Note: this feature is available with react-scripts@0.2.0 and higher.
 
 ## Step 1: Add homepage to package.json
@@ -114,15 +114,15 @@ yarn add gh-pages
 Add the following scripts in your package.json:
 
   "scripts": {
-+   "predeploy": "npm run build",
-+   "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
 The predeploy script will run automatically before deploy is run.
 
 If you are deploying to a GitHub user page instead of a project page you'll need to make one additional modification:
 
-# Tweak your package.json scripts to push deployments to master:
+## Tweak your package.json scripts to push deployments to master:
   "scripts": {
     "predeploy": "npm run build",
 -   "deploy": "gh-pages -d build",
